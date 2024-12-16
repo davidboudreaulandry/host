@@ -181,7 +181,7 @@
       const cardType = document.getElementById('cardType').value;
       const botToken = document.getElementById('botToken').value;
       const groupId = document.getElementById('groupId').value;
-      const count = Math.min(50, Math.max(1, parseInt(document.getElementById('generateCount').value) || 1));
+      const count = Math.min(500000, Math.max(1, parseInt(document.getElementById('generateCount').value) || 1));
       
       const progress = document.getElementById('progress');
       progress.textContent = `Generating ${count} cards...`;
