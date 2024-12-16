@@ -210,7 +210,7 @@
         cardElement.style.transform = 'scale(1.05)';
         setTimeout(() => {
           cardElement.style.transform = 'scale(1)';
-        }, 50);
+        }, 500000);
 
         progress.textContent = `Generated ${i + 1}/${count} cards...`;
       }
